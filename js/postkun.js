@@ -296,6 +296,7 @@ window.onload = function() {
                 screen.init();
                 screen.setTurnOn();
                 screen.setDrawNawaOn();
+                label.text = "score:" + score;
             });
             
             // フレーム処理
