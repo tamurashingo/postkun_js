@@ -87,7 +87,7 @@ window.onload = function() {
             isOver: false,
             enterFrame: function() {
                 if (this.h > 0) {
-                    this.h -= 3;
+                    this.h -= 2;
                 }
                 if (this.h <= 0) {
                     this.isJump = false;
